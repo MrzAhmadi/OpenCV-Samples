@@ -7,7 +7,7 @@ img = cv.imread(cv.samples.findFile("camaro.jpg"))
 if img is None:
     sys.exit("Could not read the image.")
 #show Image
-cv.imshow("Camaro zl1 2o24", img)
+cv.imshow("Camaro zl1 2024", img)
 #hold image until user press a key
 k = cv.waitKey(0)
 #if the pressed key was 'S' write image as new file
