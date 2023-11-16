@@ -8,7 +8,7 @@ while cap.isOpened():
         print("Can't receive frame (stream end?). Exiting ...")
         break
     gray = cv.cvtColor(frame, cv.COLOR_BGR2RGB)
-    cv.imshow('frame', gray)
+    cv.imshow('camaro', gray)
 #if user press q do exit
     if cv.waitKey(1) == ord('q'):
         break
